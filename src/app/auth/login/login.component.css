@@ -1,0 +1,11 @@
+.btn-custom{
+    width: 100%;
+    background-color: rgba(44, 58, 71,0.9);
+    border-color:  rgba(44, 58, 71,1.0);
+    border-radius: 5px;
+}
+.cardhed-custom{
+    text-align:center;
+    background-color: rgba(44, 58, 71,0.9);
+    color: #fff;
+}

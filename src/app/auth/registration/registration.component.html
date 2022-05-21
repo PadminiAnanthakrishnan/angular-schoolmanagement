@@ -1,0 +1,91 @@
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div class="card">
+            <div class="card-header cardhed-custom">
+                <h3>
+                    PT School Welcomes You.!
+                </h3>
+            </div>
+            <div class="card-body">
+                <div class="p-3">
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>First Name</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="text" class="form-control" placeholder="Enter the First Name" id="fname"/>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>Last Name</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="text" class="form-control" placeholder="Enter the Last Name" id="fname"/>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>Mail id</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="mail" class="form-control" placeholder="Enter the mail id" id="lname"/>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>Password</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="password" class="form-control" placeholder="Enter the Password" id="pwd"/>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>Confirm Password</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="password" class="form-control" placeholder="Enter the Confirm Password" id="cnfmpwd"/>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>Gender</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="radio" name="gender"   id="Male" value="Male"/>
+                            <label for="Male">Male</label>
+                            <input type="radio" name="gender"   id="FeMale" value="FeMale"/>
+                            <label for="FeMale">FeMale</label>
+                            <input type="radio" name="gender"   id="Trans" value="Trans"/>
+                            <label for="Trans">Transgender</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="col-xl-5">
+                            <label>DateofBirth</label>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="date" class="form-control" id="dob" name="dob"/>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="button" class="btn-dark btn-custom"  value="Login" (click)="fnregtolog()">
+                    </div>
+                    <div class="col">
+                        <input type="button" class="btn-dark btn-custom"  value="Register" (click)="fnregchk()">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p style="text-align: center;font-size: 12px;">
+                        Please read all the<span><a href="">Terms & Conditions</a></span>before
+                        <br>registering into the website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+
+
+.school-logo-link::before,.srctxt-cont::before,.srcimg-cont::before,.head-container::before,.menu-container::before,.logo-cont::before{
+    content: "";
+    display: table;
+}
+.school-logo-link::after,.srctxt-cont::after,.srcimg-cont::after,.head-container::after,.menu-container::after,.logo-cont::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.txt-cont::before,.school-logo-link::before{
+    content: "";
+    display: table;
+}
+.txt-cont::after,.school-logo-link::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.head-container{
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    background-color: #2C3A47;
+}
+.school-logo-link{
+    text-decoration: none;
+}
+.logo-cont{
+    width: 15%;
+    float: left;
+}
+.txt-cont{
+    padding: 20px 0px;
+    width: 65%;
+    float: left;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.school-logo{
+    width: 100%;
+}
+.srctxt-cont{
+    width: 90%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+.src-txt{
+    width: 100%;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    outline-style: none;
+}
+.srcimg-cont{
+    width: 10%;
+    float: left;
+    padding: 20px 0px;
+    box-sizing: border-box;
+   
+}
+.src-icon-link{
+    text-decoration: none;
+    font-size: 30px;
+    border-left: none;
+    color: #000;
+}
+.menu-container{
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+.menu-txt{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;   
+}
