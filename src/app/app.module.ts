@@ -8,6 +8,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegistrationComponent } from './auth/registration/registration.component';
 import { ForgotpwdComponent } from './auth/forgotpwd/forgotpwd.component';
 import { MainContainerComponent } from './main-container/main-container.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainContainerComponent } from './main-container/main-container.componen
     LoginComponent,
     RegistrationComponent,
     ForgotpwdComponent,
-    MainContainerComponent
+    MainContainerComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
